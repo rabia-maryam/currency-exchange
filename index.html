@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Exchange</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Currency Exchange</h1>
+            <div class="current">
+                <img src="pak.png" alt="" id="current-flag">
+                <h4>PAK</h4>
+                <input type="text" id="current-input" placeholder="Enter Amount">
+            </div>
+            <div class="divide">
+                <!-- <hr> -->
+                <i class="bi bi-arrow-down-up" onclick="swap()"></i>
+            </div>
+            <div class="target">
+                <img src="usa.png" alt="" id="target-flag">
+                <h4>USA</h4>
+                <h3 id="target-output">Exchanged Amount</h3>
+            </div>
+            <div class="btn-div">
+                <button id="clear" class="btn" >Clear</button>
+                <button id="change" class="btn" onclick="exchange()">Change</button>
+            </div>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+h1{
+    padding: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(240, 178, 240);
+}
+.main{
+    background-color: rgb(175, 50, 175);
+    padding: 10px;
+    border-radius: 20px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn{
+    width:200px;
+    color: black;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn-div{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+img{
+    width: 30px;
+    height: 20px;
+}
+h4{
+    display: inline;
+    color: black;
+}
+input{
+    display: block;
+    color: black;
+}
+.divide{
+  width: inherit;
+  display: flex ;
+  justify-content: center;
+}
+i{
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 3px;
+}
+i:hover{
+    padding:5px;
+}
+.current{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+}
+input{
+    height: 30px;
+    padding: 5px;
+    border: none;
+}
+.target{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+}
+h3{
+    color: black;
+    font-size: 16px;
+    padding: 6px;
+}
